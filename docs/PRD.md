@@ -124,8 +124,8 @@ RSS 与 SEO 在只有作者一个读者时没有意义。
 ### 7.1 分仓
 
 ```
-reader（public）          只放代码，数据目录排除在版本控制之外
-reader-content（private） 放导出的 Markdown 与图片
+reader（public）    只放代码，数据目录排除在版本控制之外
+content（private）  放导出的 Markdown 与图片
 ```
 
 代码与内容生命周期不同：代码将来可能公开分享，内容始终私密。分仓后「误提交」这条路径从结构上不存在，比依赖忽略规则兜底可靠。
